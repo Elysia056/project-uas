@@ -12,7 +12,6 @@
     $email = $_POST["email"];
     $password = $_POST["password"];
 
-    //cek email dan password
     require_once "database.php";
 
     //$sql = "SELECT * FROM users WHERE email = '$email' AND password = '$password'";

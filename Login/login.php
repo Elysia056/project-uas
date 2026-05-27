@@ -4,7 +4,7 @@
  
   if (isset($_SESSION["login_success"])) {
     header("Location: index.php");
-    die(); // atau exit() juga boleh
+    die(); 
   }
 
 
